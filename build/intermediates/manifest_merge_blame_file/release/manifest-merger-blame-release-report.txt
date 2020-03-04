@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.conun.conunwallet"
+4    android:versionCode="1"
+5    android:versionName="1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\conun\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\conun\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\conun\src\main\AndroidManifest.xml:5:5-67
+11-->D:\conun\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->D:\conun\src\main\AndroidManifest.xml:6:5-69
+12-->D:\conun\src\main\AndroidManifest.xml:6:22-66
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\conun\src\main\AndroidManifest.xml:7:5-65
+13-->D:\conun\src\main\AndroidManifest.xml:7:22-62
+14
+15    <uses-feature
+15-->D:\conun\src\main\AndroidManifest.xml:8:5-83
+16        android:name="android.hardware.camera"
+16-->D:\conun\src\main\AndroidManifest.xml:8:19-57
+17        android:required="true" />
+17-->D:\conun\src\main\AndroidManifest.xml:8:58-81
+18    <uses-feature
+18-->D:\conun\src\main\AndroidManifest.xml:9:5-93
+19        android:name="android.hardware.camera.autofocus"
+19-->D:\conun\src\main\AndroidManifest.xml:9:19-67
+20        android:required="true" />
+20-->D:\conun\src\main\AndroidManifest.xml:9:68-91
+21
+22    <uses-permission android:name="android.permission.VIDEO_CAPTURE" />
+22-->D:\conun\src\main\AndroidManifest.xml:10:5-72
+22-->D:\conun\src\main\AndroidManifest.xml:10:22-69
+23    <uses-permission android:name="android.permission.AUDIO_CAPTURE" />
+23-->D:\conun\src\main\AndroidManifest.xml:11:5-72
+23-->D:\conun\src\main\AndroidManifest.xml:11:22-69
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->D:\conun\src\main\AndroidManifest.xml:14:5-80
+24-->D:\conun\src\main\AndroidManifest.xml:14:22-77
+25
+26    <application
+26-->D:\conun\src\main\AndroidManifest.xml:19:5-48:19
+27        android:allowBackup="true"
+27-->D:\conun\src\main\AndroidManifest.xml:20:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+29        android:hardwareAccelerated="false"
+29-->D:\conun\src\main\AndroidManifest.xml:24:9-44
+30        android:icon="@drawable/icon"
+30-->D:\conun\src\main\AndroidManifest.xml:21:9-38
+31        android:label="@string/app_name"
+31-->D:\conun\src\main\AndroidManifest.xml:22:9-41
+32        android:supportsRtl="true"
+32-->D:\conun\src\main\AndroidManifest.xml:23:9-35
+33        android:theme="@style/AppTheme"
+33-->D:\conun\src\main\AndroidManifest.xml:26:9-40
+34        android:usesCleartextTraffic="true" >
+34-->D:\conun\src\main\AndroidManifest.xml:25:9-44
+35
+36        <!-- splash activity -->
+37        <activity
+37-->D:\conun\src\main\AndroidManifest.xml:31:9-39:20
+38            android:name="com.conun.conunwallet.SplashActivity"
+38-->D:\conun\src\main\AndroidManifest.xml:32:13-64
+39            android:configChanges="orientation|keyboardHidden"
+39-->D:\conun\src\main\AndroidManifest.xml:34:13-63
+40            android:screenOrientation="portrait"
+40-->D:\conun\src\main\AndroidManifest.xml:33:13-49
+41            android:theme="@style/SplashTheme" >
+41-->D:\conun\src\main\AndroidManifest.xml:33:50-84
+42            <intent-filter>
+42-->D:\conun\src\main\AndroidManifest.xml:35:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\conun\src\main\AndroidManifest.xml:36:17-69
+43-->D:\conun\src\main\AndroidManifest.xml:36:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\conun\src\main\AndroidManifest.xml:37:17-77
+45-->D:\conun\src\main\AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <!-- main activity -->
+50        <activity
+50-->D:\conun\src\main\AndroidManifest.xml:42:9-46:20
+51            android:name="com.conun.conunwallet.MainActivity"
+51-->D:\conun\src\main\AndroidManifest.xml:43:13-62
+52            android:screenOrientation="portrait"
+52-->D:\conun\src\main\AndroidManifest.xml:44:13-49
+53            android:theme="@style/Theme.AppCompat.NoActionBar" >
+53-->D:\conun\src\main\AndroidManifest.xml:45:13-63
+54        </activity>
+55    </application>
+56
+57</manifest>
