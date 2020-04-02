@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private String[] permissions = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.CAMERA, Manifest.permission.CALL_PHONE, Manifest.permission.INTERNET}; //권한 설정 변수
     private static final int MULTIPLE_PERMISSIONS = 101; //권한 동의 여부 문의 후 CallBack 함수에 쓰일 변수
     private WebView mWebView;
-    private final static String MAIN_URL = "https://wallet.conun.io/"; //url 입력
+    private final static String MAIN_URL = "https://wallet.conunkorea.io/"; //url 입력
 
     private static final String TYPE_IMAGE = "image/*";
     private static final int INPUT_FILE_REQUEST_CODE = 1;

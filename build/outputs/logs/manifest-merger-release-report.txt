@@ -99,7 +99,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\us
 	android:label
 		ADDED from D:\conun\src\main\AndroidManifest.xml:22:9-41
 	android:hardwareAccelerated
-		ADDED from D:\conun\src\main\AndroidManifest.xml:24:9-44
+		ADDED from D:\conun\src\main\AndroidManifest.xml:24:9-43
 	android:icon
 		ADDED from D:\conun\src\main\AndroidManifest.xml:21:9-38
 	android:allowBackup
